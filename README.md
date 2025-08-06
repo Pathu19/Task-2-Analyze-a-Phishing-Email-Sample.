@@ -21,16 +21,16 @@ This case study analyzes a real phishing email impersonating a Brazilian bank (B
 | **DMARC** | `temperror` |
 | **Date** | Wed, 16 Jul 2025 00:26:03 -0700 (PDT) |
 
-### ⚠️ Phishing Indicators
+###  Phishing Indicators
 
 - **Fake Domain**: `atendimento.com.br` is not associated with Bradesco or Livelo.
 - **IP Origin**: Sent from a cloud-hosted VPS (DigitalOcean), not an official email server.
 - **Authentication Failures**:
-  - SPF: `temperror`
-  - DKIM: `none`
-  - DMARC: `temperror`
+  - SPF: temperror
+  - DKIM: none
+  - DMARC: temperror
 - **Urgency Tactic**:
-  - Subject claims: `Seu cartão tem 92.990 pontos LIVELO expirando hoje!`  
+  - Subject claims: Seu cartão tem 92.990 pontos LIVELO expirando hoje!
     *(Your card has 92,990 Livelo points expiring today!)*
 
 ### Conclusion
