@@ -11,19 +11,19 @@ This case study analyzes a real phishing email impersonating a Brazilian bank (B
 
 | Field | Value |
 |-------|-------|
-| **From** | BANCO DO BRADESCO LIVELO `<banco.bradesco@atendimento.com.br>` |
+| **From** | BANCO DO BRADESCO LIVELO <banco.bradesco@atendimento.com.br> |
 | **Delivered-To** | padmanathan19505@gmail.com |
-| **Return-Path** | `<padmanathan19505@gmail.com>` |
-| **Received from** | `ubuntu-s-1vcpu-1gb-35gb-intel-sfo3-06` (IP: `137.184.34.4`) via Postfix |
+| **Return-Path** | <padmanathan19505@gmail.com> |
+| **Received from** | ubuntu-s-1vcpu-1gb-35gb-intel-sfo3-06` (IP: `137.184.34.4) via Postfix |
 | **Email Provider** | DigitalOcean (Cloud VPS) |
-| **SPF** | `temperror` |
-| **DKIM** | `none` |
-| **DMARC** | `temperror` |
+| **SPF** | temperror |
+| **DKIM** | none |
+| **DMARC** | temperror |
 | **Date** | Wed, 16 Jul 2025 00:26:03 -0700 (PDT) |
 
 ###  Phishing Indicators
 
-- **Fake Domain**: `atendimento.com.br` is not associated with Bradesco or Livelo.
+- **Fake Domain**: atendimento.com.br is not associated with Bradesco or Livelo.
 - **IP Origin**: Sent from a cloud-hosted VPS (DigitalOcean), not an official email server.
 - **Authentication Failures**:
   - SPF: temperror
